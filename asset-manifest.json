@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.e836d03f.js",
-    "static/js/787.e3076833.chunk.js": "/static/js/787.e3076833.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.e836d03f.js.map": "/static/js/main.e836d03f.js.map",
-    "787.e3076833.chunk.js.map": "/static/js/787.e3076833.chunk.js.map"
+    "main.css": "/test-react-pages-deploy/static/css/main.073c9b0a.css",
+    "main.js": "/test-react-pages-deploy/static/js/main.5abf54fe.js",
+    "static/js/787.e3076833.chunk.js": "/test-react-pages-deploy/static/js/787.e3076833.chunk.js",
+    "static/media/logo.svg": "/test-react-pages-deploy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/test-react-pages-deploy/index.html",
+    "main.073c9b0a.css.map": "/test-react-pages-deploy/static/css/main.073c9b0a.css.map",
+    "main.5abf54fe.js.map": "/test-react-pages-deploy/static/js/main.5abf54fe.js.map",
+    "787.e3076833.chunk.js.map": "/test-react-pages-deploy/static/js/787.e3076833.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.e836d03f.js"
+    "static/js/main.5abf54fe.js"
   ]
 }
