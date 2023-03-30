@@ -1,5 +1,6 @@
 {
   "name": "test-react-pages-deploy",
+  "homepage": "https://comaquasar.github.io/test-react-pages-deploy/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
