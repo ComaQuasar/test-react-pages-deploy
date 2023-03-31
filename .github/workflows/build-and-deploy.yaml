@@ -39,6 +39,8 @@ jobs:
 
       - name: Print env
         run: echo $REACT_APP_IMAGE_URL
+
+        -name: Print SECRET
         run: echo $IMPORTANT_SECRET
 
       - name: Build project
