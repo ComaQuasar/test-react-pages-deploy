@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - main
-      
+
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -32,6 +32,8 @@ jobs:
 
       - name: Install NPM packages
         run: npm ci
+        env:
+          REACT_APP_IMAGE_URL: ${{ env.REACT_APP_IMAGE_URL }}
 
       - name: Build project
         run: npm run build
