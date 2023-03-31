@@ -16,7 +16,8 @@ on:
 #   pages: write
 #   id-token: write
 
-env: IMAGE_URL = ${{ vars.REACT_APP_IMAGE_URL }}
+env:
+  REACT_APP_IMAGE_URL: ${{ vars.REACT_APP_IMAGE_URL }}
 
 jobs:
   build:
@@ -34,11 +35,9 @@ jobs:
 
       - name: Install NPM packages
         run: npm ci
-        env:
-          REACT_APP_IMAGE_URL: $IMAGE_URL
 
       - name: Print env
-        run: echo $IMAGE_URL
+        run: echo $REACT_APP_IMAGE_URL
 
       - name: Build project
         run: npm run build
