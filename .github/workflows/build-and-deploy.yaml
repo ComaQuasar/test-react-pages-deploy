@@ -36,7 +36,7 @@ jobs:
           REACT_APP_IMAGE_URL: ${{ env.REACT_APP_IMAGE_URL }}
 
       - name: Print env
-        run: echo ${{ env.REACT_APP_IMAGE_URL }}
+        run: echo ${{ github.repository.REACT_APP_IMAGE_URL }}
 
       - name: Build project
         run: npm run build
